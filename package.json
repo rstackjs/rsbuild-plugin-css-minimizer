@@ -35,7 +35,7 @@
     ]
   },
   "dependencies": {
-    "css-minimizer-webpack-plugin": "7.0.4",
+    "css-minimizer-webpack-plugin": "8.0.0",
     "reduce-configs": "^1.1.2"
   },
   "devDependencies": {
