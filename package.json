@@ -1,6 +1,6 @@
 {
   "name": "@rsbuild/plugin-css-minimizer",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "repository": "https://github.com/rstackjs/rsbuild-plugin-css-minimizer",
   "license": "MIT",
   "type": "module",
