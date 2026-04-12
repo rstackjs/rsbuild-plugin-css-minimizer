@@ -24,7 +24,7 @@ Add plugin to your `rsbuild.config.ts`:
 
 ```ts
 // rsbuild.config.ts
-import { pluginCssMinimizer } from "@rsbuild/plugin-css-minimizer";
+import { pluginCssMinimizer } from '@rsbuild/plugin-css-minimizer';
 
 export default {
   plugins: [pluginCssMinimizer()],
@@ -47,7 +47,7 @@ const defaultOptions = {
   minify: CssMinimizerWebpackPlugin.cssnanoMinify,
   minimizerOptions: {
     preset: [
-      "default",
+      'default',
       {
         mergeLonghand: false,
       },
@@ -62,7 +62,7 @@ const defaultOptions = {
 pluginCssMinimizer({
   pluginOptions: {
     minimizerOptions: {
-      preset: require.resolve("cssnano-preset-simple"),
+      preset: require.resolve('cssnano-preset-simple'),
     },
   },
 });
@@ -74,7 +74,7 @@ pluginCssMinimizer({
 pluginCssMinimizer({
   pluginOptions: (options) => {
     options.minimizerOptions = {
-      preset: require.resolve("cssnano-preset-simple"),
+      preset: require.resolve('cssnano-preset-simple'),
     };
   },
 });
